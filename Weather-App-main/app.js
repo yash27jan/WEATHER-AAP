@@ -1,7 +1,7 @@
 const heroSection = document.getElementById("hero-section");
 const loadingSection = document.getElementById("loading-section");
 const errorSection = document.getElementById("error-section");
-const key = "41d0b3521b5079d62f148acc876fe96b";
+const key = "f6fdf9958d8ac83475232ee809cae955";
 let searchBtn = document.getElementById("search-btn");
 
 // Requesting from api

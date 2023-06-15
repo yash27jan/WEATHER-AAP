@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="nav" id="nav">
+      <div class="logo-container">
+        <a href="https://weather-app-sai.netlify.app/">
+          <img src="logo/logo-via-logohub.png" alt="" class="logo" />
+        </a>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Hero section -->
+    <section class="hero-section" id="hero-section">
+      <h1>Enter your City name here:</h1>
+      <div class="search-city-container">
+        <input
+          type="search"
+          name="Search"
+          placeholder="City"
+          id="search-city"
+        />
+        <button class="search-btn" id="search-btn">Search</button>
+      </div>
+    </section>
+    <!-- End of hero section -->
+
+    <!-- Loading Section -->
+    <div class="loading-section" id="loading-section">
+      <h1>Loading..</h1>
+      <img src="./images/loading.84a795b2.gif" alt="" />
+    </div>
+    <!-- End of Loading Section -->
+
+    <!-- Response Section -->
+    <section class="response-section" id="response-section"></section>
+    <section class="error-section" id="error-section">
+      <h1>May be you have entered wrong city name</h1>
+      <img src="./images/error.webp" alt="" class="error-img" />
+    </section>
+    <!-- End of Response Section -->
+    <!-- js -->
+    <script src="app.js"></script>
+  </body>
+</html>
